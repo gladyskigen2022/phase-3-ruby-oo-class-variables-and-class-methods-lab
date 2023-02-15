@@ -3,8 +3,8 @@ class Song
 
     #class variables to store the count of songs,its artists and genres
     @@count = 0
-    @@artists = []
-    @@genres = []
+    @@artists = [] #stores all instances of artist
+    @@genres = [] # stores all instances of genre
 
     #initialize
     def initialize(name, artist, genre)
@@ -40,4 +40,4 @@ class Song
     end
 
 end
-#Song.new('hit me baby one more time', 'Brittany Spears', 'pop')
+#song = Song.new('hit me baby one more time', 'Brittany Spears', 'pop')
